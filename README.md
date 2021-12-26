@@ -26,7 +26,7 @@ Client server running @ <a href='http://localhost:3000'>http://localhost:3000</a
     $ npm build
 
 
-# To Run Django Server
+# To Run Node Server
 
     $ cd api
     $ npm  or npm install
