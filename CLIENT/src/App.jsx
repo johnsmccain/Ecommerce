@@ -1,11 +1,11 @@
 import React from "react";
-
+import { Navbar } from "./components";
 function App() {
   const user = false;
   return (
-    <div className="container">
-      <h1>Hello Programmers</h1>
-      <p>get ready</p>
+    <div className="app">
+      <Navbar />
+      <p>get ready to crush it </p>
     </div>
   );
 }
