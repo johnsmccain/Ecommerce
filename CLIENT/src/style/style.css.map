@@ -3,7 +3,8 @@
     "mappings": "",
     "sources": [
         "style.scss",
-        "../components/navbar/_navbar.scss"
+        "../components/navbar/_navbar.scss",
+        "_variables.scss"
     ],
     "names": [],
     "file": "style.css"
