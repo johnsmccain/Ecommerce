@@ -1,0 +1,65 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  transition: all 0.3s;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Public Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.3;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  line-height: 1.15;
+  margin-top: 0;
+}
+h1 {
+  font-size: 2.3rem;
+  margin-bottom: 1.5rem;
+}
+.logo {
+  font-size: 1.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: $global-color-accent;
+}
+.flex {
+  display: flex;
+  &_jc-c {
+    justify-content: center;
+  }
+  &_jc-sp-b {
+    justify-content: space-between;
+  }
+  &_ai-c {
+    align-items: center;
+  }
+}
+.p1 {
+  padding: 1rem;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}

@@ -1,11 +1,12 @@
 import React from "react";
-import { Navbar } from "./components";
+import { Footer, Navbar } from "./components";
 function App() {
   const user = false;
   return (
-    <div className="app">
+    <div className="app ">
       <Navbar />
       <p>get ready to crush it </p>
+      <Footer />
     </div>
   );
 }

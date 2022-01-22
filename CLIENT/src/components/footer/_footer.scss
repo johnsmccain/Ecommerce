@@ -1,0 +1,73 @@
+footer {
+  background-color: $global-color-52c983b3;
+  color: $global-color-text;
+  font-size: 0.8rem;
+
+  .container {
+    @include breakpoint-down(medium) {
+      padding: 0;
+    }
+    &-footer {
+      display: flex;
+      padding: 1.6rem 0.6rem;
+      @include breakpoint-down(medium) {
+        display: block;
+        padding: 0.5rem;
+        font-size: 1.1rem;
+      }
+      h3 {
+        font-size: 1.5rem;
+        color: $global-color-31b2b0f3;
+        @include breakpoint-down(medium) {
+          margin: 0;
+          padding: 1rem 0;
+          font-size: 1.3rem;
+        }
+      }
+      .left {
+        flex: 1;
+
+        .logo {
+          padding: 1.9rem 1rem;
+        }
+      }
+      .center {
+        flex: 1;
+        &-list {
+          color: $global-color-accent;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          li {
+            line-height: 1.5;
+          }
+        }
+      }
+      .right {
+        flex: 1;
+      }
+    }
+  }
+  .f-section {
+    @include breakpoint-down(medium) {
+      margin-bottom: 1rem;
+    }
+  }
+  .copyright {
+    border-top: 1px solid $global-color-text;
+    padding: 1rem;
+    @include breakpoint-down(medium) {
+      display: block;
+    }
+    &-icons {
+      @include breakpoint-down(medium) {
+        text-align: center;
+      }
+      .icon {
+        font-size: 14px;
+        margin-left: 0.7rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

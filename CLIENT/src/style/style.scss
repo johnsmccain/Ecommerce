@@ -1,2 +1,5 @@
-@import "../components/navbar/navbar";
 @import "./variables";
+@import "./global";
+@import "./mixin";
+@import "../components/navbar/navbar";
+@import "../components/footer/footer";
