@@ -10,16 +10,16 @@ function Navbar() {
       <div className="logo">Logo</div>
 
       <div id={active ? "active" : "hide-for-mobile"} className="links ">
-        <a className="link" href="#">
+        <a className="link" href="/">
           Home
         </a>
-        <a className="link" href="#">
+        <a className="link" href="/">
           About
         </a>
-        <a className="link" href="#">
+        <a className="link" href="/">
           Contact
         </a>
-        <a className="link" href="#">
+        <a className="link" href="/">
           Account
         </a>
       </div>

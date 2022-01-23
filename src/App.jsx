@@ -1,7 +1,6 @@
 import React from "react";
 import { Footer, Navbar } from "./components";
 function App() {
-  const user = false;
   return (
     <div className="app ">
       <Navbar />
